@@ -17,21 +17,32 @@
 ### 👨‍💻 About me
 
 ```php
-$shukri = [
-    'name'     => 'Muhammad Shukri bin Aman',
-    'role'     => 'Software Engineer',
-    'location' => 'Malaysia 🇲🇾',
-    'exp'      => '2 years in backend dev',
-    'sector'   => 'Web systems',
-    'focus' => [
+<?php
+
+/**
+ * @name    Muhammad Shukri bin Aman
+ * @role    Software Engineer
+ * @since   2023
+ */
+class Shukri extends BackendDeveloper
+{
+    public string $location  = 'Selangor 🇲🇾';
+    public string $exp       = '2 years in backend dev';
+    public string $sector    = 'Web systems';
+
+    public array $focus = [
         'Laravel MVC architecture',
         'RESTful API development',
         'PostgreSQL & MySQL',
         'Query optimization',
-    ],
-];
-```
+    ];
 
+    public function currentlyLearning(): string
+    {
+        return 'System design & clean architecture';
+    }
+}
+```
 <br clear="right"/>
 
 ---
