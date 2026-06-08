@@ -22,7 +22,6 @@
 /**
  * @name    Muhammad Shukri bin Aman
  * @role    Software Engineer
- * @since   2023
  */
 class Shukri extends BackendDeveloper
 {
