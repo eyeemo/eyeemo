@@ -1,6 +1,6 @@
 <div align="center">
     
-# Muhammad Shukri bin Aman
+# Muhammad Shukri Bin Aman
 ### Backend PHP Developer · Laravel · Website Systems
 
 </div>
